@@ -44,7 +44,7 @@ const NavBar = () => {
                         aria-label="Scroll to About Section"
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              ABOUT
+              INTRO
                         </h4>
                     </Link>
 
