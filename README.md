@@ -9,14 +9,15 @@ Check it out [here]()
 ---
 
 ## Showcase
+![Screenshot (1373)](https://github.com/vedant-dhamecha/Portfolio-2023/assets/105575987/10b7bc99-56a6-4f6d-8f5d-857185688527)
+![Screenshot (1374)](https://github.com/vedant-dhamecha/Portfolio-2023/assets/105575987/0c248b04-9b99-45c8-b34e-fd231712575b)
+![Screenshot (1375)](https://github.com/vedant-dhamecha/Portfolio-2023/assets/105575987/b35ea608-56b9-4ee8-b661-a340447a78c0)
+![Screenshot (1376)](https://github.com/vedant-dhamecha/Portfolio-2023/assets/105575987/f99cfbca-2a33-462c-986e-053e425edf79)
+![Screenshot (1377)](https://github.com/vedant-dhamecha/Portfolio-2023/assets/105575987/9a0f2976-c87c-4ab8-a90d-32057e2e7bd6)
 
-<div>
-    <img src='./.github/assets/1.png' width='1819' alt="home section">
-    <br>
-    <img src='./.github/assets/2.png' width='1821' alt="work section">
-    <br>
-    <img src='./.github/assets/3.png' width='1817' alt="contact section">
-</div>
+
+
+
 
 ---
 
