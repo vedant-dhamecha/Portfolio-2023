@@ -55,7 +55,7 @@ const ProjectCard = ({
                 >
                     {gitavailable ? (
                         <>
-                            <Link
+                            <a
                                 href={github}
                                 target="_blank"
                                 aria-label="Open GitHub Repository"
@@ -67,7 +67,7 @@ const ProjectCard = ({
                                 data-blobity-magnetic="false"
                             >
                                     <SiGithub />
-                            </Link>
+                            </a>
 
                         </>
                     ) : (
@@ -75,7 +75,7 @@ const ProjectCard = ({
                     )}
                     {linkavailable ? (
                         <>
-                            <Link
+                            <a
                                 href={demo}
                                 target="_blank"
                                 aria-label="Open Live Demo"
@@ -87,7 +87,7 @@ const ProjectCard = ({
                                 data-blobity-magnetic="false"
                                 >
                                     <BsLink45Deg />
-                            </Link>
+                            </a>
 
                         </>
                     ) : (
