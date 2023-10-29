@@ -102,7 +102,7 @@ export const projects = [
         demo: "https://github.com/nuIIpointerexception/",
         image: "/projects/doc.png",
         gitavailable: true,
-        linkavailable:true,
+        linkavailable:false,
     },
     {
         id: 5,
