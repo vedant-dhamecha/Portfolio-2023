@@ -4,7 +4,7 @@ This is the first iteration of my portfolio website. It is built with Next.js, R
 
 My goal was to try out a simplistic glass-morphism-like design and learn more about React and Next.js.
 
-Check it out [here]()
+Check it out [here](https://portfolio-2023-silk-rho.vercel.app)
 
 ---
 
