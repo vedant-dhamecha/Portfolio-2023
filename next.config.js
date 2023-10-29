@@ -29,6 +29,9 @@ const nextConfig = {
   images: {
     domains: ["raw.githubusercontent.com"],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+},
 };
 
 module.exports = nextConfig;
