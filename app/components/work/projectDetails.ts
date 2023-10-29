@@ -48,7 +48,7 @@ export const projects = [
         techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
         github: "https://github.com/vedant-dhamecha/Portfolio-2023",
-        demo: "https://www.seekvisualartist.com/",
+        demo: "https://portfolio-2023-silk-rho.vercel.app/",
         image: "/projects/portfolio.png",
         gitavailable: true,
         linkavailable:true,
