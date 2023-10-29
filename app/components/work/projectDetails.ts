@@ -31,8 +31,8 @@ export type ProjectProps = {
   technologies: IconType[];
   techNames: string[];
   techLinks: string[];
-  github: string;
-  demo: string;
+  github?: string;
+  demo?: string;
   image: string;
   gitavailable: boolean;
   linkavailable: boolean;
