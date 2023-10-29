@@ -32,7 +32,7 @@ Check it out [here]()
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/nuIIpointerexception/www.seekvisualartist.com/
+    git clone https://github.com/vedant-dhamecha/Portfolio-2023
     ```
 
 2. Install dependencies
