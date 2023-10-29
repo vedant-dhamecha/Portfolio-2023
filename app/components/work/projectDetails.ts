@@ -99,10 +99,10 @@ export const projects = [
         techNames: ["HTML5", "CSS3", "Javascript", "PHP", "Mysql"],
         techLinks: ["https://dev.w3.org/html5/spec-LC/","https://www.css3.com/","https://www.javascript.com/","https://www.php.net/","https://www.mysql.com/"],
         github: "https://github.com/vedant-dhamecha/doctors_appointment_system",
-        demo: "https://github.com/nuIIpointerexception/",
+        demo: "https://vedantprojects.000webhostapp.com/",
         image: "/projects/doc.png",
         gitavailable: true,
-        linkavailable:false,
+        linkavailable:true,
     },
     {
         id: 5,
