@@ -39,13 +39,13 @@ Check it out [here](https://portfolio-2023-silk-rho.vercel.app)
 2. Install dependencies
 
     ```bash
-    bun install
+    npm install
     ```
 
 3. Run the development server
 
     ```bash
-    bun run dev
+    npm run dev
     ```
 
 ---
