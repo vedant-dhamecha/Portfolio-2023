@@ -26,9 +26,11 @@ const ProjectGrid = () => {
                             techLinks={project.techLinks}
                             github={project.github}
                             demo={project.demo}
+                            down={project.down}
                             image={project.image}
                             gitavailable={project.gitavailable}
-                            linkavailable={project.linkavailable} />
+                            linkavailable={project.linkavailable}
+                            downavailable={project.downavailable} />
                     );
                 })}
             </div>

@@ -19,7 +19,8 @@ import {
     SiJavascript,
     SiPhp,
     SiMysql,
-    SiPython
+    SiPython,
+    SiSqlite
 } from "react-icons/si";
 import  {FaJava} from "react-icons/fa";
 import {IconType} from "react-icons";
@@ -33,9 +34,11 @@ export type ProjectProps = {
   techLinks: string[];
   github?: string;
   demo?: string;
+  down?: string;
   image: string;
   gitavailable: boolean;
   linkavailable: boolean;
+  downavailable: boolean;
 };
 
 export const projects = [
@@ -52,6 +55,7 @@ export const projects = [
         image: "/projects/portfolio.png",
         gitavailable: true,
         linkavailable:true,
+        downavailable:false,
     },
     {
         id: 1,
@@ -66,6 +70,7 @@ export const projects = [
         image: "/projects/happytails.png",
         gitavailable: true,
         linkavailable:true,
+        downavailable:false,
     },
     {
         id: 2,
@@ -78,6 +83,7 @@ export const projects = [
         image: "/projects/tracking.png",
         gitavailable: true,
         linkavailable:false,
+        downavailable:false,
     },
     {
         id: 3,
@@ -90,6 +96,7 @@ export const projects = [
         image: "/projects/techshop.png",
         gitavailable: true,
         linkavailable:false,
+        downavailable:false,
     },
     {
         id: 4,
@@ -103,6 +110,7 @@ export const projects = [
         image: "/projects/doc.png",
         gitavailable: true,
         linkavailable:true,
+        downavailable:false,
     },
     {
         id: 5,
@@ -115,6 +123,7 @@ export const projects = [
         image: "/projects/pygui.png",
         gitavailable: true,
         linkavailable:false,
+        downavailable:false,
     },
     {
         id: 6,
@@ -127,5 +136,20 @@ export const projects = [
         image: "/projects/votesy.png",
         gitavailable: true,
         linkavailable:false,
+        downavailable:false,
+    },
+    {
+        id: 7,
+        name: "GTU Quiz App",
+        description:"Designed for students to practice quizzes on various subjects.",
+        technologies: [FaJava, SiSqlite],
+        techNames: ["Java", "Sqlite"],
+        techLinks: ["https://dev.java/", "https://www.sqlite.org/index.html"],
+        github: "https://github.com/vedant-dhamecha/GTUQuizAndroidApp",
+        image: "/projects/gtu.png",
+        down:"https://drive.google.com/uc?export=download&id=1CKCpP1uq7H4hNcnzldTuDkRrf9cTDIRz",
+        gitavailable: true,
+        linkavailable: false,
+        downavailable: true,
     },
 ];

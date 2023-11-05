@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Container from "../container/Container";
 import React from "react";
 import {SiGithub} from "react-icons/si";
-import {BsLink45Deg} from "react-icons/bs";
+import {BsLink45Deg,BsFillCloudDownloadFill} from "react-icons/bs";
 const ProjectCard = ({
     id,
     name,
@@ -17,9 +17,11 @@ const ProjectCard = ({
     techLinks,
     github,
     demo,
+    down,
     image,
     gitavailable,
     linkavailable,
+    downavailable
 }: ProjectProps) => {
     return (
         <motion.div
@@ -87,6 +89,26 @@ const ProjectCard = ({
                                 data-blobity-magnetic="false"
                                 >
                                     <BsLink45Deg />
+                            </a>
+
+                        </>
+                    ) : (
+                        <div></div>
+                    )}
+                    {downavailable ? (
+                        <>
+                            <a
+                                href={down}
+                                target="_blank"
+                                aria-label="Open Live Demo"
+                                className="rounded-full bg-white p-3 text-3xl md:w-[25px] md:text-4xl lg:w-[65px] lg:text-5xl"
+                                data-blobity
+                                data-blobity-radius="35"
+                                data-blobity-offset-x="4"
+                                data-blobity-offset-y="4"
+                                data-blobity-magnetic="false"
+                                >
+                                    <BsFillCloudDownloadFill />
                             </a>
 
                         </>

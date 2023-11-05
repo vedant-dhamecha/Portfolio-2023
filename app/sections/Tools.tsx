@@ -10,7 +10,7 @@ import {
     SiGooglechrome, SiGooglefonts, SiCanva, SiNodedotjs, SiFirebase, SiExpress, SiStrapi,
     SiIntellijidea, SiJavascript, SiKotlin, SiLua, SiHtml5, SiPhp, SiMysql, SiPython, SiGooglecolab,
     SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig,
-    SiVisualstudio
+    SiVisualstudio,SiSqlite
 } from "react-icons/si";
 import  {FaJava} from "react-icons/fa";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
@@ -67,6 +67,7 @@ const Tools = () => {
                                 <SiPhp size={50}/>
                                 <SiMysql size={50}/>
                                 <SiMongodb size={50}/>
+                                <SiSqlite size={50}/>
                                 <SiFirebase size={50}/>
                                 <SiStrapi size={50}/>
                                 <SiJavascript size={50}/>
